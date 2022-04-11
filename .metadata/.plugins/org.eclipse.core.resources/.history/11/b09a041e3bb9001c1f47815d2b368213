@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>exam3</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style>
+ table,td { border-collapse: collapse; border: 1px solid #000; }
+ td { padding: 5px; }
+ td.head { width: 100px; text-align: center; background-color: #eee; }
+ td.tail { width: 350px; text-align: left; }
+</style>
+</head>
+<body>
+	<h1>exam3</h1>
+	<table>
+	<tbody>
+	<tr>
+	<td class="head">소속</td><td class="tail">소프트웨어공학과</td>
+	</tr>
+	<tr>
+	<td class="head">학번</td><td class="tail">201732009</td>
+	</tr>
+	<tr>
+	<td class="head">이름</td><td class="tail">김윤서</td>
+	</tr>
+	<tr>
+	<td class="head">전공</td><td class="tail">소프트웨어공학 전공심화</td>
+	</tr>
+	</tbody>
+	</table>
+</body>
+</html>

@@ -1,0 +1,45 @@
+package hw1_1;
+
+import java.util.Scanner;
+
+public class ArraySum {
+	static int rsum = 0;
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int[] array = {-10, -20, 30, 40, 50, 60, 70, 80, 90, 100, 10, 20};
+		System.out.println("hw1_1:김재관");
+		System.out.print("하한 입력(0~11) : ");
+		int min = sc.nextInt();
+		System.out.print("상한 입력(0~11) : ");
+		int max = sc.nextInt();
+		
+		iterativeArrayPrint(array,min,max);
+		System.out.println("");
+		System.out.print("합 = ");
+		System.out.println(recursiveArraySum(array,min,max));
+	}
+	
+	public static void iterativeArrayPrint(int[] array,int lb,int ub) {
+		System.out.print("출력 = ");
+		int sum = 0;
+		for(int i=lb;i<=ub;i++) {
+			System.out.print(array[i]+" ");
+			
+		}
+		
+	}
+	public static int recursiveArraySum(int[] array,int lb,int ub) {
+		if(lb<=ub) {
+			rsum += array[lb];
+			recursiveArraySum(array,++lb,ub);
+			if(lb == ub) {
+				return rsum;
+			}
+		}
+		return rsum;
+		
+	}
+	
+
+}

@@ -1,0 +1,74 @@
+package time;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+
+public class Main {
+
+	public static void main(String[] args) throws ParseException {
+		String s=new java.util.Scanner(System.in).nextLine(),a[]=s.split("\t"),c[];
+		int i=0,j,count=0,Min=0,Hour=0;
+		StringBuffer f,F=new StringBuffer();
+		Calendar Re=null;
+		SimpleDateFormat t=new SimpleDateFormat("HH:mm"),r=new SimpleDateFormat("DD:HH:mm");
+		for(String b:a) {
+			if(b.equals(""))F.append("\t");
+//			System.out.println(b);
+			else {
+				b=b.replaceAll("오후 ","+");
+				b=b.replaceAll("오전 ","");
+				b=b.replaceAll("\\?","");
+				f=new StringBuffer(b);
+				for(;i<f.length();i++) {
+					if(f.charAt(i)=='+') {
+						if(f.substring(i+1,i+3).equals("12"))f.replace(i+1,i+3,"0");
+//						System.out.println(f.substring(i+1,i+3));
+						for(j=i;f.charAt(j)!=':';j++);
+						f=new StringBuffer(f.substring(0,i)+(Integer.parseInt(f.substring(i+1,j))+12)+f.substring(j));
+//						System.out.println(f);
+					}
+				}
+				System.out.println(f);
+				c=f.toString().split("~");
+				
+				Date q=t.parse(c[1]),w=t.parse(c[0]);
+//				System.out.println(q);
+//				System.out.println(w);
+//				System.out.println(q.compareTo(w));
+				Calendar C=Calendar.getInstance();
+				System.out.println("\t"+q);
+				System.out.println("\t"+w);
+				C.setTime(q);
+//				System.out.println(C.toString());
+				C.add(Calendar.HOUR,-w.getHours());
+				C.add(Calendar.MINUTE,-w.getMinutes());
+				System.out.println(t.format(C.getTime()));
+				c=t.format(C.getTime()).split(":");
+				Hour=Integer.parseInt(c[0]);
+				Min+=Integer.parseInt(c[1]);
+				System.out.println(Hour+Min/60+" "+Min%60);
+				F.append(t.format(C.getTime())+"\t");
+				q=C.getTime();
+				if(Re==null) {
+					Re=C;
+//					Re.add(Calendar.DATE,-1);
+					Re.set(Calendar.DATE,1);
+				}
+				else {
+					Re.add(Calendar.HOUR,q.getHours());
+					Re.add(Calendar.MINUTE,q.getMinutes());
+				}
+				System.out.println(++count+" - RE: "+r.format(Re.getTime()));
+				i=0;
+			}
+		}
+		System.out.println(F);
+		System.out.println(Hour+Min/60+" "+Min%60);
+//		long wTime=Re.getTimeInMillis()/1000/60;
+//		System.out.println(wTime);
+//		System.out.println(wTime/60+" "+wTime%60);
+	}
+
+}

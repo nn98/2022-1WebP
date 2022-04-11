@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="ResetTargetSelectionDialog.resetType" value="HARD"/>
+	<item key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel" value="0"/>
+	<list key="EGit.KnownHosts">
+		<item value="git.eclipse.org"/>
+		<item value="bitbucket.org"/>
+		<item value="github.com"/>
+	</list>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/nn98/ReeBook"/>
+		<item value="https://github.com/nn98/ReeBook.git"/>
+		<item value="https://github.com/nn98/Spring-19_2"/>
+	</list>
+	<list key="CommitDialog.authorValues">
+		<item value="nn98 &lt;jkllhgb@gmail.com&gt;"/>
+		<item value="1377nn98 &lt;jkllhgb@gmail.com&gt;"/>
+		<item value="nn &lt;nn@121.125.203.105&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="nn98 &lt;jkllhgb@gmail.com&gt;"/>
+		<item value="nn &lt;nn@121.125.203.105&gt;"/>
+	</list>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="497,502"/>
+		<item key="sortItemState" value="false"/>
+		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="true"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="C:\Users\jkllh\OneDrive - 성공회대학교\JSP_\hello1\.git">
+			<item value="empty"/>
+		</list>
+		<list key="C:\Users\jkllh\git\hello1\.git">
+			<item value="false"/>
+			<item value="nn98 &lt;jkllhgb@gmail.com&gt;"/>
+			<item value="1012 FormTest hello1"/>
+			<item value="nn98 &lt;jkllhgb@gmail.com&gt;"/>
+			<item value="0000000000000000000000000000000000000000"/>
+			<item value="0"/>
+			<item value="false"/>
+		</list>
+		<list key="C:\Users\jkllh\git\DBTest1\.git">
+			<item value="empty"/>
+		</list>
+		<list key="C:\Users\jkllh\OneDrive - 성공회대학교\JSP_\hello1\hello1\.git">
+			<item value="empty"/>
+		</list>
+		<list key="C:\Users\jkllh\OneDrive - 성공회대학교\JSP_\DBTest1\.git">
+			<item value="empty"/>
+		</list>
+		<list key="C:\Users\jkllh\OneDrive - 성공회대학교\JSP_\form0\.git">
+			<item value="empty"/>
+		</list>
+		<list key="C:\Users\jkllh\OneDrive - 성공회대학교\JSP_\mybatis1\.git">
+			<item value="empty"/>
+		</list>
+		<list key="C:\Users\nn\OneDrive - 성공회대학교\_JAVA\Algorism\.git">
+			<item value="empty"/>
+		</list>
+		<list key="C:\Users\nn\OneDrive - 성공회대학교\_SPRING\TA_Assist-0\.git">
+			<item value="empty"/>
+		</list>
+		<list key="C:\Users\nn\OneDrive - 성공회대학교\_JAVA\Algorism\Algorism\.git">
+			<item value="false"/>
+			<item value="nn98 &lt;jkllhgb@gmail.com&gt;"/>
+			<item value="3085"/>
+			<item value="nn98 &lt;jkllhgb@gmail.com&gt;"/>
+			<item value="07e02a042afa01da7761167a1c8b6f3406b6b6bf"/>
+			<item value="0"/>
+			<item value="false"/>
+		</list>
+		<list key="C:\Users\nn\OneDrive - 성공회대학교\_JAVA\Algorism\Algorithm\.git">
+			<item value="empty"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="54"/>
+		<item key="DIALOG_Y_ORIGIN" value="236"/>
+		<item key="DIALOG_WIDTH" value="666"/>
+		<item key="DIALOG_HEIGHT" value="458"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+		<list key="sashWeights">
+			<item value="600"/>
+			<item value="400"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.fetch.FetchResultDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="179"/>
+		<item key="DIALOG_Y_ORIGIN" value="238"/>
+		<item key="DIALOG_WIDTH" value="616"/>
+		<item key="DIALOG_HEIGHT" value="458"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.dialogs.MergeTargetSelectionDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="218"/>
+		<item key="DIALOG_Y_ORIGIN" value="95"/>
+		<item key="DIALOG_WIDTH" value="538"/>
+		<item key="DIALOG_HEIGHT" value="672"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.merge.MergeResultDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="233"/>
+		<item key="DIALOG_Y_ORIGIN" value="397"/>
+		<item key="DIALOG_WIDTH" value="509"/>
+		<item key="DIALOG_HEIGHT" value="219"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.dialogs.ResetTargetSelectionDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="218"/>
+		<item key="DIALOG_Y_ORIGIN" value="48"/>
+		<item key="DIALOG_WIDTH" value="538"/>
+		<item key="DIALOG_HEIGHT" value="743"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.dialogs.RebaseTargetSelectionDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="218"/>
+		<item key="DIALOG_Y_ORIGIN" value="189"/>
+		<item key="DIALOG_WIDTH" value="538"/>
+		<item key="DIALOG_HEIGHT" value="532"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="GitImportWizard">
+	</section>
+	<section name="GitCommitSearchPage">
+		<item key="HISTORY_SIZE" value="1"/>
+		<section name="HISTORY0">
+			<section name="searchSection">
+				<item key="ignoreCase" value="true"/>
+				<item key="regexSearch" value="false"/>
+				<item key="textPattern" value="Storage-"/>
+				<item key="matchAuthor" value="true"/>
+				<item key="matchCommit" value="true"/>
+				<item key="matchCommitter" value="true"/>
+				<item key="matchMessage" value="true"/>
+				<item key="matchParents" value="true"/>
+				<item key="matchTree" value="true"/>
+				<item key="allBranches" value="false"/>
+				<item key="repository0" value="C:\Users\nn\OneDrive - 성공회대학교\_JAVA\Algorism\.git"/>
+				<item key="repository1" value="C:\Users\nn\OneDrive - 성공회대학교\_SPRING\form0\.git"/>
+				<item key="repository2" value="C:\Users\nn\OneDrive - 성공회대학교\_SPRING\Inventory_Management\.git"/>
+				<item key="repository3" value="C:\Users\nn\OneDrive - 성공회대학교\_SPRING\Locker00\.git"/>
+				<item key="repository4" value="C:\Users\nn\OneDrive - 성공회대학교\_SPRING\Mouse\.git"/>
+				<item key="repository5" value="C:\Users\nn\OneDrive - 성공회대학교\_SPRING\OpenCV01\.git"/>
+				<item key="repository6" value="C:\Users\nn\git\RB\.git"/>
+				<item key="repository7" value="C:\Users\nn\OneDrive - 성공회대학교\_SPRING\RB\.git"/>
+				<item key="repository8" value="C:\Users\nn\OneDrive - 성공회대학교\_SPRING\RB0\.git"/>
+				<item key="repository9" value="C:\Users\nn\OneDrive - 성공회대학교\_SPRING\ReeBook\.git"/>
+				<item key="repository10" value="C:\Users\nn\OneDrive - 성공회대학교\_SPRING\TA_Assist-0\.git"/>
+				<item key="repositoryCount" value="11"/>
+			</section>
+		</section>
+	</section>
+</section>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>exam5</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style>
+div {
+	border: 1px solid #000;
+	margin: 20px 0px 20px 0px;
+	width: 400px;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+}
+div:nth-child(1):hover {
+	background-color: #ffffcc;	
+}
+div:nth-child(2):hover {
+	background-color: #ddffdd;	
+}
+div:nth-child(3):hover {
+	background-color: #ccffff;	
+}
+div:nth-child(4):hover {
+	background-color: #eeeeee;	
+}
+</style>
+</head>
+<body>
+	<h1>exam5</h1>
+	<div>사각형1</div>
+	<div>사각형2</div>
+	<div>사각형3</div>
+	<div>사각형4</div>
+</body>
+</html>

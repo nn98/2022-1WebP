@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>exam3</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style>
+ table { border-collapse: collapse; }
+ td { border: 1px solid gray; padding: 3px; }
+td.head { width: 100px; text-align: center; }
+td.tail { width: 350px; text-align: left; }
+</style>
+</head>
+<body>
+	<h1>exam3</h1>
+	<table>
+	<tbody>
+	<tr>
+	<td class="head">소속</td><td class="tail">소프트웨어공학과</td>
+	</tr>
+	</tbody>
+	</table>
+</body>
+</html>
