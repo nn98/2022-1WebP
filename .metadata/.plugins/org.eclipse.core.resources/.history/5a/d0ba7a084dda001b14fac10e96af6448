@@ -1,0 +1,26 @@
+package sales;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Cupang {
+
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		String a;
+		int i=0,b[]=new int[12],x=0;
+		while(!(a=s.nextLine()).equals("")) {
+			i++;
+			switch(i) {
+			case 1:
+				x=a.charAt(6)-'0';
+				break;
+			case 4:
+				b[x]+=Integer.parseInt(a.replaceAll("[^0-9]",""));
+			}
+			if(i==4)i=0;
+		}
+		System.out.println(Arrays.toString(b));
+	}
+
+}

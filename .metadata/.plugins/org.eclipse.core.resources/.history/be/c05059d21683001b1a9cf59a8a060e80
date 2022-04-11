@@ -1,0 +1,31 @@
+package main;
+
+import java.io.FileInputStream;
+import javax.swing.JFrame;
+
+
+public class Counting extends JFrame{
+
+	Counting(){
+		setTitle("Stock List");
+		setSize(400,300);
+		setVisible(true);
+	}
+	public static void main(String[] args)throws Exception {
+		try {
+			String fP="C:/Non/main.txt",sL;
+			FileInputStream f=null;
+			f=new FileInputStream(fP);
+			byte[]rB=new byte[f.available()];
+			while(f.read(rB)!=-1);
+			sL=new String(rB);
+			System.out.println(sL);
+			f.close();
+
+		}catch(Exception e) {
+			e.getStackTrace();
+		}
+		new Counting();
+	}
+
+}

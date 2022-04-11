@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)https://www.skhu.ac.kr/intro.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!--<meta http-equiv="content-type" content="text/html; charset=utf-8" />-->
+     
+    <title>성공회대학교</title>
+</head>
+<body>
+    <center>
+        <div style="padding:0px; margin:0px">
+            <img src="./skhu_main_files/introMain.jpg" alt="성공회대학교 인트로 페이지" style="width: 1260px; height: 950px;border:none;" usemap="#mainImage">
+            <map name="mainImage" id="mainImage"> 
+                <area shape="rect" coords="105, 125, 1165, 183" alt="[중요 공지]신종 코로나 바이러스 예방을 위한 개강일 연기 안내 바로가기" title="[중요공지] 개강일이 3월16일(월)로 연기되었습니다 바로가기" target="_self" href="http://www.skhu.ac.kr/board/boardread.aspx?idx=34901&amp;curpage=1&amp;bsid=10004&amp;searchBun=51">
+                <area shape="rect" coords="105, 188, 1165, 248" alt="[중요 공지]2020학년도 신(편)입생 오리엔테이션 자료 안내 바로가기" title="[중요 공지]2020학년도 신(편)입생 오리엔테이션 자료 안내 바로가기" target="_self" href="http://www.skhu.ac.kr/board/boardread.aspx?idx=34851&amp;curpage=1&amp;bsid=10008">
+                <area shape="rect" coords="200, 300, 461, 595" alt="성공회대학교 홈페이지(SungKongHoe University) 바로가기" title="성공회대학교 홈페이지(SungKongHoe University) 바로가기" target="_self" href="https://www.skhu.ac.kr/main.aspx"> 
+                <area shape="rect" coords="500, 300, 755, 595" alt="대학 신.편입학(Undergraduate School) 바로가기" title="대학 신.편입학(Undergraduate School) 바로가기" target="_self" href="https://www.skhu.ac.kr/intro3.aspx"> 
+                <area shape="rect" coords="800, 300, 1050, 595" alt="대학원 신.편입학(Graduate School) 바로가기" title="대학원 신.편입학(Graduate School) 바로가기" target="_self" href="https://www.skhu.ac.kr/intro2.aspx"> 
+            </map>
+        </div>
+        <!--<div style="background-image: url('/common/images/main/introMain.jpg'); width: 1260px; height: 1000px;">
+        </div>-->
+    </center>
+
+
+</body></html>

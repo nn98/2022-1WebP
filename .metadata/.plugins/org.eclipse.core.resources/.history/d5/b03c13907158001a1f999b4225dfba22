@@ -1,0 +1,43 @@
+package net.skhu.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class LockerController {
+	
+	public LockerController(){
+//	    System.out.println("--> addCont 객체 생성됨.");
+	  }
+
+	@RequestMapping("/")
+	public String begin() {
+		return "front";
+	}
+	
+//	@RequestMapping(value="/", method=RequestMethod.GET)
+//	  public ModelAndView add(int no1,  int no2 ){
+//	    ModelAndView mav = new ModelAndView();
+//	    mav.setViewName("/cal");//  /WEB-INF/view/calc/calc3.jsp 를 의미한다. 
+//	    
+//	    mav.addObject("msg", "더하기");
+//	    mav.addObject("img", "./images/1st.png");
+//	    //   /WEB-INF/view/calc/images/add.png
+//	    int result = no1 + no2;
+//	    
+//	    mav.addObject("no1",no1);
+//	    mav.addObject("no2",no2);
+//	    mav.addObject("result",result);
+//	    
+//	    return mav;
+//	    
+//	  }
+	
+	@RequestMapping("/img")
+	public String img() {
+		return "imgtest";
+	}
+	
+}

@@ -1,0 +1,82 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<style type="text/css">
+#div0 {
+	width: 950px;
+	height: 430px;
+	overflow: visible;
+	margin: 0px auto 0px auto;
+}
+
+#div1 {
+	float:right;
+	width: 19%;
+	margin-left: 1%;
+	height: 100%;
+	background:#bbf;
+}
+
+#img0 {
+	width: 80%;
+	height: auto;
+	overflow: hidden;
+}
+
+#btn0 {
+	float: right;
+	height: auto;
+	padding: 5px 0px 5px 0px;
+	font-size: 11pt;
+	font-family: 함초롬바탕;
+	text-align: center;
+	background: #eee;
+	width: 80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#tb0 {
+	float: right;
+	height: auto;
+	border: 2px solid #ddf;
+}
+</style>
+<title>Insert title here</title>
+</head>
+<body>
+	<form:form method="post">
+		<div id="div0">
+			<img id="img0" alt="error" src="/image/6-1f-1.png">
+			<div id="div1">
+			<h1 id="btn0">1층 미디어센터측 사물함</h1>
+			<table id="tb0">
+				<tbody>
+					<tr>
+						<td>학번</td>
+						<td>${ user.id }</td>
+					</tr>
+					<tr>
+						<td>이름</td>
+						<td>${ user.name }</td>
+					</tr>
+					<tr>
+						<td>소속</td>
+						<td>${ user.department.id }</td>
+					</tr>
+					<tr>
+						<td>사물함 번호</td>
+						<td>${ user.locker.id }</td>
+					</tr>
+				</tbody>
+			</table>
+			</div>
+		</div>
+	</form:form>
+</body>
+</html>

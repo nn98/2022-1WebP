@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>exam5</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style>
+div {
+	border: 1px solid #000;
+	padding: 1em 2em 1em 2em;
+	margin: 20px 0px 20px 0px;
+	width: 400px;
+	height: 70px;
+	text-align: center;
+}
+
+ul.menubar {
+	border: 1px solid #ddd;
+	border-radius: 0.4em;
+	background: linear-gradient(#fff, #eee);
+	padding: 0.3em 5em;
+	font-size: 11pt;
+}
+
+ul.menubar>li {
+	display: inline-block;
+	text-align: center;
+	list-style-type: none;
+	min-width: 6em;
+	padding: 0.2em;
+}
+
+ul.menubar li:hover {
+	background-color: #ddd;
+	cursor: pointer;
+}
+
+ul.menubar ul {
+	position: absolute;
+	visibility: hidden;
+	margin-top: 2px;
+	margin-left: 30px;
+	background-color: white;
+	border: 1px solid #ddd;
+	padding: 4px;
+	box-shadow: 4px 4px 4px #eee;
+}
+
+ul.menubar li:hover ul {
+	visibility: visible;
+}
+
+ul.menubar ul:hover {
+	visibility: visible;
+}
+
+ul.menubar ul li {
+	display: block;
+	text-align: left;
+	list-style-type: none;
+	min-width: 8em;
+	padding: 0.4em;
+}
+</style>
+</head>
+<body>
+	<h1>exam5</h1>
+	<div>&lt소속&gt 소프트웨어공학과</div>
+	<div>&lt학번&gt 201732009</div>
+	<div>&lt이름&gt 김윤서</div>
+	<div>&lt전공&gt 소프트웨어공학 전공심화</div>
+	<div class="container">
+		<ul class="menubar">
+			<li>메뉴1</li>
+			<li>메뉴2</li>
+			<li>메뉴3
+				<ul>
+					<li>메뉴3-1</li>
+					<li>메뉴3-2</li>
+					<li>메뉴3-3</li>
+				</ul>
+			<li>로그아웃</li>
+		</ul>
+	</div>
+
+</body>
+</html>

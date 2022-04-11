@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style>
+div {
+	border: 2px solid #ffddff;
+	padding: 1em 2em 1em 2em;
+	margin: 20px 0px 20px 0px;
+}
+</style>
+</head>
+<body>
+	<h1>exam1</h1>
+	<div>&lt소속&gt 소프트웨어공학과</div>
+	<div>&lt학번&gt 201732009</div>
+	<div>&lt이름&gt 김윤서</div>
+	<div>&lt전공&gt 소프트웨어공학 전공심화</div>
+</body>
+</html>
